@@ -1,0 +1,61 @@
+#Material count : 5
+
+newmtl Material__pieds 
+Ns 90.0 
+Ka 0.5 0.5 0.5 
+Kd 1.0 1.0 1.0 
+Ks 0.5 0.5 0.5 
+Ke 0.0 0.0 0.0 
+Ni 1.0 
+d 1.0 
+illum 5 
+map_Ka -s 1.0 1.0 -o 0.0 0.0 pieds_ao.jpg 
+map_Kd -s 10.0 10.0 -o 0.0 0.0 diffuse.jpg 
+map_Bump -s 10.0 10.0 -o 0.0 0.0 normal.jpg 
+map_Ks -s 1.0 1.0 -o 0.0 0.0 spec.jpg 
+
+newmtl Material__DecorPrimaire 
+Ns 10.0 
+Ka 0.5 0.5 0.5 
+Kd 1.0 1.0 1.0 
+Ks 0.5 0.5 0.5 
+Ke 0.0 0.0 0.0 
+Ni 1.0 
+d 1.0 
+illum 5 
+map_Ka -s 1.0 1.0 -o 0.0 0.0 decorprimaire_ao.jpg 
+
+newmtl Material__dossier 
+Ns 5000 
+Ka 1.0 1.0 1.0 
+Kd 1.0 1.0 1.0 
+Ks 0.5 0.5 0.5 
+Ke 0.0 0.0 0.0 
+Ni 1.0 
+d 1.0 
+illum 5 
+map_Ka -s 1.0 1.0 -o 0.0 0.0 dossier_ao.jpg 
+
+newmtl Material__seam 
+Ns 5000 
+Ka 1.0 1.0 1.0 
+Kd 0.7 0.7 0.7 
+Ks 0.5 0.5 0.5 
+Ke 0.0 0.0 0.0 
+Ni 1.0 
+d 0.99 
+illum 7 
+map_Bump -s 1.0 1.0 -o 0.0 0.0 seam_n.jpg 
+map_Kd -s 1.0 1.0 -o 0.0 0.0 seam.png 
+
+newmtl Material__assise 
+Ns 5000 
+Ka 1.0 1.0 1.0 
+Kd 1.0 1.0 1.0 
+Ks 0.5 0.5 0.5 
+Ke 0.0 0.0 0.0 
+Ni 1.0 
+d 1.0 
+illum 5 
+map_Ka -s 1.0 1.0 -o 0.0 0.0 assise_ao.jpg 
+
